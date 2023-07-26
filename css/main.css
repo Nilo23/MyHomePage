@@ -39,12 +39,21 @@ body{
 padding-top: 46px;
 background-color: #F1F1F1;
 }
-
+/* .test{
+    overflow:visible;
+    position: fixed;
+    top: 0;
+} */
 .header-nav{
-display: flex;
+display:flex;
 justify-content: space-between;
 align-items: flex-end;
 margin-bottom: 76px;
+/* overflow: hidden;
+
+position: fixed;
+top: 0;
+width: 100%; */
 }
 .logo{
 position: relative;
@@ -66,8 +75,8 @@ color: #000;
     border-radius: 50%;
 }
 /* Nav */
-.nav{
-
+.nav ul{
+ float: left;
 }
 .nav-list{
 display: flex;
